@@ -1,0 +1,44 @@
+.navigation {
+  &__list {
+    display: flex;
+    overflow-x: scroll;
+    list-style-type: none;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+    &__list::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+  &__item {
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7e7e82;
+
+    &--active {
+      border: 2px solid #b8ffec;
+      background: #fff;
+    }
+    &:focus {
+      opacity: 0.8;
+    }
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.1);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .navigation__list {
+    overflow-x: visible;
+    flex-wrap: wrap;
+  }
+}
