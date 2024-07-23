@@ -1,0 +1,12 @@
+.swiper-pagination {
+  height: 12px;
+  margin-top: 16px;
+  position: relative;
+  --swiper-pagination-bullet-horizontal-gap: 6px;
+  --swiper-pagination-bullet-width: 12px;
+  --swiper-pagination-bullet-height: 12px;
+  --swiper-pagination-bullet-inactive-color: $lightGray;
+  --swiper-pagination-color: $gray;
+  --swiper-pagination-bottom: 0;
+  --swiper-pagination-top: 0;
+}

@@ -4,7 +4,7 @@
   align-items: center;
   position: relative;
   padding: 18px 16px;
-  background-color: #fff;
+  background-color: $white;
   font-family: 'TTLakes-Regular', sans-serif;
   &__menu {
     position: relative;
@@ -21,7 +21,7 @@
       width: 2px;
       height: 30px;
       border-radius: 2px;
-      background: #eaeaea;
+      background: $lightGray;
     }
   }
   &__list {
@@ -56,14 +56,14 @@
     width: 2px;
     height: 30px;
     border-radius: 2px;
-    background: #eaeaea;
+    background: $lightGray;
   }
   .header__list {
     display: flex;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1366px) {
   .header {
     overflow: hidden;
     height: 0;

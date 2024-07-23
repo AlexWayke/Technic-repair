@@ -8,6 +8,18 @@
   &:focus {
     opacity: 0.8;
   }
+  &--filled {
+    padding: 4px 8px 4px 12px;
+    background: $pink;
+    border-radius: 40px;
+    width: fit-content;
+    &::after {
+      content: '';
+      width: 24px;
+      height: 24px;
+      background: url(../img/icons/icon-arrow-white.svg) no-repeat 50% 50%;
+    }
+  }
   &:hover {
     opacity: 0.9;
     transform: scale(1.1);
@@ -15,10 +27,19 @@
   &__icon {
     width: 40px;
     height: 40px;
-    background-color: #ff3e79;
+    background-color: $pink;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  &__text {
+    color: $black;
+    font-family: 'TTLakes-Medium', sans-serif;
+    font-size: 12px;
+    &--color-wt {
+      font-family: 'TTLakes-Bold', sans-serif;
+      color: #fff;
+    }
   }
 }

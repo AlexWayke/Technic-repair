@@ -1,5 +1,11 @@
-$bgColor: #24292e;
-$text: #fff;
+$black: #1b1c21;
+$pink: #ff3e79;
+$blur: #ffffff90;
+$white: #fff;
+$darkGray: #7e7e82;
+$gray: #b5b6bc;
+$lightGray: #eaeaea;
+$green: #41f6d7;
 
 @font-face {
   font-family: 'TTLakes-Regular';
@@ -22,8 +28,17 @@ $text: #fff;
 @import './normalize.scss';
 @import './header.scss';
 @import './button.scss';
+@import './main.scss';
 @import './wrapper.scss';
 @import './menu.scss';
+@import './callback.scss';
 @import './title.scss';
+@import './section-title.scss';
 @import './navigation.scss';
 @import './article.scss';
+@import './vendors.scss';
+@import './services.scss';
+@import './prices.scss';
+@import './swiper.scss';
+@import './tip.scss';
+@import './footer.scss';

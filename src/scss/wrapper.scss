@@ -12,6 +12,23 @@
   &__article {
     margin-top: 24px;
   }
+  &__vendors {
+    margin-top: 24px;
+  }
+  &__services {
+    margin-top: 24px;
+  }
+  &__prices {
+    margin-top: 24px;
+  }
+  &__tip {
+    margin-top: 16px;
+    padding: 0 16px;
+  }
+  &__footer {
+    margin-top: 52px;
+    padding: 0 4px 20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -27,13 +44,30 @@
       margin-top: 32px;
       padding: 0 24px;
     }
+    &__vendors {
+      margin-top: 32px;
+    }
+    &__services {
+      margin-top: 32px;
+    }
+    &__prices {
+      margin-top: 32px;
+    }
+    &__tip {
+      margin-top: 24px;
+      padding: 0 24px;
+    }
+    &__footer {
+      padding: 0 24px 20px;
+    }
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1366px) {
   .wrapper {
+    padding: 0 20px;
     &__title {
-      padding-top: 42px;
+      padding: 42px 0 0;
     }
     &__navigation {
       margin-top: 8px;
@@ -42,6 +76,22 @@
     &__article {
       margin-top: 8px;
       padding: 0;
+    }
+    &__vendors {
+      margin-top: 42px;
+    }
+    &__services {
+      margin-top: 42px;
+    }
+    &__prices {
+      margin-top: 42px;
+    }
+    &__tip {
+      margin-top: 32px;
+      padding: 0;
+    }
+    &__footer {
+      padding: 0 0 20px;
     }
   }
 }

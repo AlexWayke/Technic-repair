@@ -11,12 +11,12 @@
     width: 8px;
     height: 40px;
     border-radius: 8px;
-    background: #41f6d7;
+    background: $green;
   }
   &__text {
     font-family: TTLakes-bold;
     font-weight: 700;
-    color: #1b1c21;
+    color: $black;
     line-height: 40px;
     font-size: 28px;
   }
@@ -26,9 +26,14 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .title__actions {
-    display: flex;
-    gap: 16px;
+@media (min-width: 1366px) {
+  .title {
+    &::before {
+      left: -24px;
+    }
+    &__actions {
+      display: flex;
+      gap: 16px;
+    }
   }
 }
