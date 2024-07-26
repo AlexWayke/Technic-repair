@@ -35,6 +35,7 @@
     transform: translateX(-100%);
     width: 320px;
     min-height: 100vh;
+    box-sizing: border-box;
     background: $white;
     box-shadow: 16px 0 52px 0 rgba(69, 79, 126, 0.2);
     transition: all 0.3s ease;
